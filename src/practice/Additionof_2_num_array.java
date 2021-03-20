@@ -1,0 +1,14 @@
+package practice;
+
+public class Additionof_2_num_array {
+public static void main(String[] args) {
+	int arr[]={1,3,4,5,2,6,9,7};
+	for (int i = 0; i < arr.length-1; i++) {
+		for (int j = i+1; j < arr.length; j++) {
+			if(arr[i]+arr[j]==7){
+				System.out.println(arr[i]+" "+arr[j]);
+			}
+		}
+	}
+}
+}
